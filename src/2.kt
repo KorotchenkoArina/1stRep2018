@@ -25,4 +25,4 @@ data class Player( var name : String, var xp : Double = 0.0,var maxHP : Double =
 fun main(args: Array<String>){
     val player = Player("hero1")
     player.gainXP(5.0)
-}
+}                     
